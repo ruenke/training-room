@@ -1,0 +1,28 @@
+{
+  "name": "training-room",
+  "version": "1.0.0",
+  "description": "员工入职实训\r 练习1：\r 页面看到一首长古诗，现在将诗句“謇吾法夫前修兮，非世俗之所服。”后面的内容隐藏，换为“查看更多”\r 当点击查看更多的时候，才完整显示整首诗，同时按钮“查看更多”变为“收回”\r 点击“收回”，诗又缩回到：“謇吾法夫前修兮，非世俗之所服。”\r 知识点：\r 1、css隐藏页面元素\r 2、给页面元素绑定事件\r 3、js操作dom",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruenke/training-room.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruenke/training-room/issues"
+  },
+  "homepage": "https://github.com/ruenke/training-room#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
